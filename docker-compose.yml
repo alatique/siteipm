@@ -1,0 +1,8 @@
+php:
+  container_name: siteipm
+  build: ./
+  ports:
+    - "8080:80"
+    - "443:443"
+  volumes:
+    - ../:/usr/share/nginx/html:cached

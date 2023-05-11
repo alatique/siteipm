@@ -1,0 +1,148 @@
+.align-items-center{
+	padding: 5px 0px 0px 0px !important;
+
+}
+
+.navbar-brand{
+	margin: 0 5% 0 0;
+}
+
+.container #menu-principal li{
+	margin-left: 1.5rem;
+}
+
+.p-2{
+	text-decoration: none;
+}
+
+.navbar-collapse .nav-item a{
+	display: inline-block;
+	text-decoration: none;
+	color: #F18B92 !important;
+	font-weight: 500;
+	font-size: 17px;
+	max-width: 120px;
+	margin: 0 0 0 2rem;
+}
+
+.navbar-collapse .nav-item a:hover{
+	transition: 0.1s;
+	color: #F18B92;
+	text-decoration: underline;
+}
+
+.servicos{
+	background-color: #FEF8F8;
+	border-radius: 0rem;
+	margin-bottom: 0rem;
+}
+
+.titulo-servicos{
+	color: #252c41;
+}
+
+.tamanho-icone{
+	font-size: 68px;
+	color: #252C40;
+}
+
+.produtos .card {
+	text-align: center;
+	/*configuração de borda. primeiro: largura, segundo: tipo, terceiro: cor*/
+	border: 1px solid #EBEBEE;
+	/*transforma os cantos das bordas em arredondados. Quanto maior o radius, mais arredondado. 
+	Da pra passar o quanto quer arredondar por quina (Sup Esq, SD, Inf E, ID)*/
+	border-radius: 5px;
+	word-wrap: normal;
+}
+
+.container .row .testemunhos img {
+	width: 140px;
+	height: 140px;
+	border: 3px solid #EBEBEE;
+	border-radius: 50%;
+}
+
+.rodape{
+	color: #333;
+	background-color: #FFF;
+}
+
+.rodape ul li .link-rodape{
+	color: #444444;
+	text-decoration: none;
+	/* margin: 0 0 0 3%; */
+}
+
+.rodape ul li .link-rodape:hover, .link-rodape-social a:hover{
+	color: #F18B92 !important;
+}
+
+.rodape ul .link-rodape-social{
+	text-decoration: none !important;
+	font-style: none !important;
+	display: inline !important;
+	font-size: 40px;
+	color: #444444 !important;
+	margin: 0 0 0 3%;
+}
+
+.link-rodape-social a {
+	color: #444444 !important;
+}
+
+.row .col-lg-4{
+	text-align: center;
+	vertical-align: top;	
+}
+
+/*Página - contato*/
+.card-text2{
+	text-align: left;
+}
+
+#endereco-peruibe{
+	margin-left: 6% ;
+}
+
+/*Página - faça parte*/
+.email{
+	margin: 0 auto;
+}
+
+.enviar{
+	margin: 0 10%;
+	width: 80%;	
+	box-sizing: border-box;
+	/*configuração de borda. primeiro: largura, segundo: tipo, terceiro: cor*/
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	background-color: #F18B92;
+	color: #FFFFFF;
+}
+
+.card.google-maps {
+	height: 100%;
+}
+
+.carousel {
+	border: 1px solid #f4f4f4;
+}
+
+.carousel-item {
+	max-height: 800px;
+}
+
+.carousel-item::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right:0;
+	left:0;
+	background: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
+background: linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
