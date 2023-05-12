@@ -11,6 +11,24 @@
 	margin-left: 1.5rem;
 }
 
+#logo-index{
+	height: 75px;
+}
+
+.versiculo{
+	vertical-align: center;
+	text-align: center;
+}
+
+#versiculo-texto{
+	font-size: 40px;
+}
+
+#versiculo-ref{
+	font-size: 20px;
+}
+
+
 .p-2{
 	text-decoration: none;
 }
@@ -18,21 +36,23 @@
 .navbar-collapse .nav-item a{
 	display: inline-block;
 	text-decoration: none;
-	color: #F18B92 !important;
+	color: #005912 !important;
 	font-weight: 500;
 	font-size: 17px;
-	max-width: 120px;
+	max-width: 150px;
 	margin: 0 0 0 2rem;
 }
 
 .navbar-collapse .nav-item a:hover{
 	transition: 0.1s;
-	color: #F18B92;
+	color: #005912;
 	text-decoration: underline;
 }
 
+
+
 .servicos{
-	background-color: #FEF8F8;
+	background-color: #F5F9F5;
 	border-radius: 0rem;
 	margin-bottom: 0rem;
 }
@@ -44,6 +64,13 @@
 .tamanho-icone{
 	font-size: 68px;
 	color: #252C40;
+	height: 120px;
+}
+
+.tamanho-icone2{
+	font-size: 68px;
+	color: #252C40;
+	height: 460px;
 }
 
 .produtos .card {
@@ -54,6 +81,7 @@
 	Da pra passar o quanto quer arredondar por quina (Sup Esq, SD, Inf E, ID)*/
 	border-radius: 5px;
 	word-wrap: normal;
+	height:100%;
 }
 
 .container .row .testemunhos img {
@@ -75,7 +103,7 @@
 }
 
 .rodape ul li .link-rodape:hover, .link-rodape-social a:hover{
-	color: #F18B92 !important;
+	color: #00921C !important;
 }
 
 .rodape ul .link-rodape-social{
@@ -84,7 +112,7 @@
 	display: inline !important;
 	font-size: 40px;
 	color: #444444 !important;
-	margin: 0 0 0 3%;
+	margin: 0 0 0 9%;
 }
 
 .link-rodape-social a {
