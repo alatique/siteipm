@@ -11,8 +11,20 @@
 	margin-left: 1.5rem;
 }
 
+.submenu{
+	text-decoration: none !important;
+	color: #000 !important;/*não funciona. Tem outro !important*/
+	font-size: 15px !important;
+}
+
 #logo-index{
 	height: 75px;
+}
+
+.carrossel-text{
+	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px white;
 }
 
 .versiculo{
@@ -22,10 +34,13 @@
 
 #versiculo-texto{
 	font-size: 40px;
+	font-style: italic;
+	padding-top: 8%;
 }
 
 #versiculo-ref{
 	font-size: 20px;
+	padding-bottom: 8%;
 }
 
 
@@ -110,9 +125,9 @@
 	text-decoration: none !important;
 	font-style: none !important;
 	display: inline !important;
-	font-size: 40px;
+	font-size: 38px;
 	color: #444444 !important;
-	margin: 0 0 0 9%;
+	margin: 0 0 0 7%;
 }
 
 .link-rodape-social a {
@@ -157,8 +172,11 @@
 	border: 1px solid #f4f4f4;
 }
 
-.carousel-item {
-	max-height: 800px;
+.carousel-item img{
+	/*max-height: 800px;*/
+	width: 1920px;
+	height: 750px;
+	object-fit: cover;
 }
 
 .carousel-item::before {
@@ -169,10 +187,10 @@
 	right:0;
 	left:0;
 	background: rgb(0,0,0);
-background: -moz-linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
-background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
-background: linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+	background: -moz-linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
+	background: linear-gradient(0deg, rgba(0,0,0,0.7) 15%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
 @media all and (min-width: 992px) {
