@@ -13,7 +13,7 @@
 
 .submenu{
 	text-decoration: none !important;
-	color: #000 !important;/*não funciona. Tem outro !important*/
+	color: #005912 !important;/*não funciona. Tem outro !important*/
 	font-size: 15px !important;
 }
 
@@ -43,6 +43,16 @@
 	padding-bottom: 8%;
 }
 
+a:link { 
+	text-decoration: none; 
+}
+
+.card-title{
+	text-decoration: none;
+	/*font-weight: 500;*/
+	color: #3B3838;
+}
+
 
 .p-2{
 	text-decoration: none;
@@ -51,7 +61,7 @@
 .navbar-collapse .nav-item a{
 	display: inline-block;
 	text-decoration: none;
-	color: #005912 !important;
+	/*color: #005912 !important;*/
 	font-weight: 500;
 	font-size: 17px;
 	max-width: 150px;
